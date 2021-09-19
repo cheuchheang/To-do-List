@@ -26,8 +26,13 @@
       height: 4vh;
       border-radius: 10px;
     }
+    #date,
+    #time {
+      width: 150px;
+    }
 
-    #btn_add,#btn_clear {
+    #btn_add,
+    #btn_clear {
       width: 5%;
       height: 4vh;
       background-color: blue;
@@ -35,10 +40,8 @@
       border-radius: 10px;
       font-weight: bold;
     }
-    #btn_clear{
-  
+    #btn_clear {
       background-color: red;
-     
     }
   }
   h4 {
@@ -51,8 +54,9 @@
     margin: 10px auto auto auto;
     height: auto;
     width: 70%;
-
-    
+    border-width: 10px 0 0 0;
+    border-style: solid;
+    border-color: blue;
 
     ul {
       list-style-type: none;
@@ -60,11 +64,12 @@
       li {
         background-color: rgb(72, 146, 175);
         padding-left: 20px;
-        margin: 10px 0;
+        margin: 0 0 10px 0px;
         color: #fff;
         border-width: 0 0 0 10px;
-        border-color: blue;
+        border-color: rgb(204, 160, 65);
         border-style: solid;
+        
 
         span {
           float: right;

@@ -12,13 +12,10 @@
     <div id="back">
       <h3><ins>To-Do List</ins></h3>
       <form onsubmit="inputTask()">
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="write down your task..."
-          required
-        />
+        <input type="text" placeholder="write down your task..." required />
+        <input type="date" name="" id="date" required />
+        <input type="time" name="" id="time" required />
+
         <input id="btn_add" type="submit" value="Add" />
         <input
           id="btn_clear"
@@ -27,7 +24,7 @@
           onclick="clearTask()"
         />
       </form>
-      <h4>Your tasks</h4>
+      <h4>My tasks</h4>
       <div id="content">
         <ul id="todo"></ul>
       </div>
