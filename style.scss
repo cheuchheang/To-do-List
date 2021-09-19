@@ -27,13 +27,18 @@
       border-radius: 10px;
     }
 
-    #btn_add {
+    #btn_add,#btn_clear {
       width: 5%;
       height: 4vh;
       background-color: blue;
       color: white;
       border-radius: 10px;
       font-weight: bold;
+    }
+    #btn_clear{
+  
+      background-color: red;
+     
     }
   }
   h4 {
@@ -44,10 +49,10 @@
   }
   #content {
     margin: 10px auto auto auto;
-    height: 20vh;
+    height: auto;
     width: 70%;
 
-    background-color: rgb(211, 235, 236);
+    
 
     ul {
       list-style-type: none;

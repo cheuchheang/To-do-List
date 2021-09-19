@@ -26,13 +26,16 @@
   height: 4vh;
   border-radius: 10px;
 }
-#back form #btn_add {
+#back form #btn_add, #back form #btn_clear {
   width: 5%;
   height: 4vh;
   background-color: blue;
   color: white;
   border-radius: 10px;
   font-weight: bold;
+}
+#back form #btn_clear {
+  background-color: red;
 }
 #back h4 {
   text-align: center;
@@ -42,9 +45,8 @@
 }
 #back #content {
   margin: 10px auto auto auto;
-  height: 20vh;
+  height: auto;
   width: 70%;
-  background-color: #d3ebec;
 }
 #back #content ul {
   list-style-type: none;
