@@ -11,17 +11,20 @@
   <body>
     <div id="back">
       <h3><ins>To-Do List</ins></h3>
-      <form action="">
+      <form>
         <input
           type="text"
           name=""
           id=""
           placeholder="write down your task..."
         />
-        <button>Add</button>
+        <input id="btn_add" type="submit" onclick="inputTask()" value="Add" />
       </form>
       <h4>Your tasks</h4>
-      <div id="content"></div>
+      <div id="content">
+        <ul id="todo">
+        </ul>
+      </div>
     </div>
   </body>
 </html>

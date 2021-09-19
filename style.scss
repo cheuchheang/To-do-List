@@ -27,7 +27,7 @@
       border-radius: 10px;
     }
 
-    button {
+    #btn_add {
       width: 5%;
       height: 4vh;
       background-color: blue;
@@ -46,7 +46,25 @@
     margin: 10px auto auto auto;
     height: 20vh;
     width: 70%;
-    border-radius: 15px;
+
     background-color: rgb(211, 235, 236);
+
+    ul {
+      list-style-type: none;
+
+      li {
+        background-color: rgb(72, 146, 175);
+        padding-left: 20px;
+        margin: 10px 0;
+        color: #fff;
+        border-width: 0 0 0 10px;
+        border-color: blue;
+        border-style: solid;
+
+        span {
+          float: right;
+        }
+      }
+    }
   }
 }

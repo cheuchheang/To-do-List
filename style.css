@@ -26,7 +26,7 @@
   height: 4vh;
   border-radius: 10px;
 }
-#back form button {
+#back form #btn_add {
   width: 5%;
   height: 4vh;
   background-color: blue;
@@ -44,6 +44,20 @@
   margin: 10px auto auto auto;
   height: 20vh;
   width: 70%;
-  border-radius: 15px;
   background-color: #d3ebec;
+}
+#back #content ul {
+  list-style-type: none;
+}
+#back #content ul li {
+  background-color: #4892af;
+  padding-left: 20px;
+  margin: 10px 0;
+  color: #fff;
+  border-width: 0 0 0 10px;
+  border-color: blue;
+  border-style: solid;
+}
+#back #content ul li span {
+  float: right;
 }/*# sourceMappingURL=style.css.map */
